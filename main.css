@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+}
+/*/////////////////////////////////////////////////////////////////////////////*/
+header{
+    background: #3B5998;
+    padding: 15px;
+}
+
+header a{color:white;
+         text-decoration: none;
+         font-size: 14px;
+         font-weight: 300;
+
+}
+
+header .fa{
+    color: white;
+}
+
+header .logo-area{
+    color:white;
+    display: inline-block;
+    width: 20%;
+    
+    margin-left: -4px;
+}
+
+header .logo-area a{
+    color: white;
+    text-decoration: none;
+    
+    font-size: 20px;
+}
+
+header .menu{
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+    border-right: 1px solid rgba(255,255,255, .3);
+    text-align: right;
+    padding-right: 20px;
+}
+
+header .menu ul li{
+    display: inline-block;
+
+}
+header .menu a{
+    margin-right: 20px;
+
+}
+
+
+
+header .icon-links {
+    display: inline-block;
+    width: 20%;
+    padding-left: 30px;
+    margin-left: -4px;
+    border-right: 1px solid rgba(255,255,255, .3);
+    text-align: center;
+    
+}
+
+header .icon-links ul li{
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+header .search-area{
+    display: inline-block;
+   text-align: right;
+    width: 40%;
+    margin-left: -4px;
+}
+
+header .search-area ul li{
+    display: inline-block;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+#top-area{
+    padding: 200px 15px 90px 15px;
+        background: url(https://images.pexels.com/photos/1699030/pexels-photo-1699030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        }
+
+#top-area .profile-info .user-img{
+    padding: 10px;
+    display: inline-block;
+    
+}
